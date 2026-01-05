@@ -14,6 +14,7 @@
     "dev:api": "pnpm --filter @app/api start:dev",
     "dev:worker": "pnpm --filter @app/worker start:dev",
     "prisma:generate": "pnpm --filter @repo/prisma generate",
+    "prisma:seed": "pnpm --filter @repo/prisma seed",
     "prisma:migrate:dev": "pnpm --filter @repo/prisma migrate:dev",
     "prisma:studio": "pnpm --filter @repo/prisma studio",
     "lint": "pnpm -r lint",

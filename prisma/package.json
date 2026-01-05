@@ -2,11 +2,15 @@
   "name": "@repo/prisma",
   "version": "0.0.0",
   "private": true,
+  "prisma": {
+    "seed": "node ./seed.js"
+  },
   "scripts": {
     "generate": "prisma generate",
     "migrate:dev": "prisma migrate dev",
     "migrate:deploy": "prisma migrate deploy",
-    "studio": "prisma studio"
+    "studio": "prisma studio",
+    "seed": "node ./seed.js"
   }
 }
 

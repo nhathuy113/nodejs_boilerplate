@@ -9,3 +9,4 @@ import { ProductsService } from "./products.service";
   providers: [ProductsRepository, ProductsService]
 })
 export class ProductsModule {}
+
